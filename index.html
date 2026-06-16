@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Completo | Mujer Bonita</title>
+    
+    
+    <style>
+    
+    .add-btn{
+    display:block;
+    width:100%;
+    margin-top:10px;
+    padding:12px;
+    background:#d63384;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:15px;
+    text-align:center;
+}
+    
+        /* --- ESTILOS GENERALES Y VARIABLES --- */
+        :root {
+            --pink-primary: #ffb6c1;
+            --pink-dark: #ff6b8b;
+            --bg-light: #fff5f7;
+            --text-main: #2d2d2d;
+            --text-muted: #666;
+            --white: #ffffff;
+            --shadow: 0 4px 15px rgba(255, 107, 139, 0.1);
+            --radius: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+    
+    <div id="menuLateral" style="
+position:fixed;
+top:0;
+left:-280px;
+width:280px;
+height:100%;
+background:white;
+z-index:10001;
+transition:.3s;
+box-shadow:0 0 15px rgba(0,0,0,.2);
+padding:20px;
+overflow-y:auto;
+">
+
+<h2 style="color:#d63384;">Menú</h2>
+
+<button onclick="toggleMenu()" style="
+position:absolute;
+top:10px;
+right:15px;
+background:none;
+border:none;
+font-size:25px;
+cursor:pointer;
+">
+✕
+</button>
+
+<hr>
+
+<a href="#sobre" onclick="toggleMenu()" style="display:block;padding:12px 0;text-decoration:none;color:#333;">
+💄 Sobre Nosotros
+</a>
+
+<a href="#ubicacion" onclick="toggleMenu()" style="display:block;padding:12px 0;text-decoration:none;color:#333;">
+📍 Ubicación
+</a>
+
+<a href="#comentarios" onclick="toggleMenu()" style="display:block;padding:12px 0;text-decoration:none;color:#333;">
+⭐ Comentarios
+</a>
+
+</div>
+
+        header {
+            background: linear-gradient(135deg, var(--white), var(--pink-primary));
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+    
+    
+
+        header h1 {
+            font-size: 24px;
+            color: var(--pink-dark);
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+        }
+
+        .search-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid var(--pink-primary);
+            border-radius: 25px;
+            outline: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .search-container input:focus {
+            border-color: var(--pink-dark);
+            box-shadow: 0 0 8px rgba(255, 107, 139, 0.3);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .product-card {
+            background-color: var(--white);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(255, 182, 193, 0.3);
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(255, 107, 139, 0.2);
+        }
+
+        .image-wrapper {
+            width: 100%;
+            padding-top: 100%;
+            position: relative;
+            background-color: #f9f9f9;
+        }
+
+        .image-wrapper img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .product-title {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--text-main);
+            min-height: 44px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .price-box {
+            background-color: var(--bg-light);
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: auto;
+            border-left: 4px solid var(--pink-dark);
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .price-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .price-label {
+            color: var(--text-muted);
+        }
+
+        .price-value {
+            font-weight: 700;
+            color: var(--pink-dark);
+        }
+
+        .no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+            font-size: 16px;
+            display: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            background-color: var(--white);
+            color: var(--text-muted);
+            font-size: 13px;
+            border-top: 1px solid rgba(255, 182, 193, 0.4)
+                    footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            background-color: var(--white);
+            color: var(--text-muted);
+            font-size: 13px;
+            border-top: 1px solid rgba(255, 182, 193, 0.4);
+        }
+
+        /* === NUEVOS ESTILOS PARA EL LOGO === */
+        .logo-container {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-container img {
+            max-width: 180px;
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        
+    </style>
+
+        
+    </style>
+</head>
+<button id="carritoBtn"
+onclick="toggleCarrito()"
+style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#d63384;
+color:white;
+border:none;
+padding:15px 20px;
+border-radius:50px;
+font-weight:bold;
+z-index:9999;">
+🛒 <span id="cantidadCarrito">0</span>
+</button>
+
+<div id="carritoPanel"
+style="
+position:fixed;
+top:0;
+right:-350px;
+width:350px;
+height:100%;
+background:white;
+box-shadow:-5px 0 15px rgba(0,0,0,.2);
+transition:.3s;
+padding:15px;
+overflow-y:auto;
+z-index:10000;">
+    
+    <button
+onclick="toggleCarrito()"
+style="
+position:absolute;
+top:10px;
+right:15px;
+background:none;
+border:none;
+font-size:28px;
+cursor:pointer;
+color:#d63384;">
+✖
+</button>
+
+<h2>Tu Pedido</h2>
+
+<p style="color:#d63384;font-weight:bold;">
+Solo se recoge en:
+<br>
+Calle Zinapécuaro #1604
+Colonia Hidalgo
+</p>
+
+<div id="listaProductos"></div>
+
+<h3>Total: $<span id="totalPedido">0</span></h3>
+
+<button onclick="enviarPedido()"
+style="
+width:100%;
+background:#25D366;
+color:white;
+border:none;
+padding:12px;
+border-radius:8px;">
+Enviar por WhatsApp
+</button>
+
+</div>
+
+<script>
+
+let carrito=[];
+
+function toggleCarrito(){
+
+ const panel=document.getElementById("carritoPanel");
+
+ if(panel.style.right==="0px"){
+   panel.style.right="-350px";
+ }else{
+   panel.style.right="0px";
+ }
+
+}
+
+function agregarCarrito(nombre,precio){
+
+ carrito.push({
+   nombre:nombre,
+   precio:precio
+ });
+
+ actualizarCarrito();
+
+}
+
+function actualizarCarrito(){
+
+ let html="";
+ let total=0;
+
+ carrito.forEach((item,index)=>{
+
+   total+=Number(item.precio);
+
+   html+=`
+   <div style="border-bottom:1px solid #ddd;padding:10px 0;">
+      <b>${item.nombre}</b>
+      <br>
+      $${item.precio}
+      <br>
+      <button onclick="eliminarProducto(${index})">
+      Eliminar
+      </button>
+   </div>
+   `;
+
+ });
+
+ document.getElementById("listaProductos").innerHTML=html;
+ document.getElementById("totalPedido").innerText=total;
+ document.getElementById("cantidadCarrito").innerText=carrito.length;
+
+}
+
+function eliminarProducto(index){
+
+ carrito.splice(index,1);
+
+ actualizarCarrito();
+
+}
+
+function enviarPedido(){
+
+ if(carrito.length===0){
+   alert("Tu carrito está vacío");
+   return;
+ }
+
+ let nombre = prompt("Por favor escribe tu nombre para recoger el pedido:");
+
+ if(!nombre || nombre.trim()===""){
+   alert("Debes escribir tu nombre.");
+   return;
+ }
+
+ let mensaje = `Hola, quiero realizar el siguiente pedido:
+
+Nombre: ${nombre}
+
+`;
+
+ carrito.forEach(item=>{
+   mensaje += `• ${item.nombre} - $${item.precio}\n`;
+ });
+
+ mensaje += `
+
+Recogeré mi pedido en:
+Calle Zinapécuaro #1604,
+Colonia Hidalgo.
+`;
+
+ window.open(
+   "https://wa.me/524773148040?text=" +
+   encodeURIComponent(mensaje),
+   "_blank"
+ );
+
+}
+
+</script>
+<body>
+    
+    <div id="menuLateral" style="
+position:fixed;
+top:0;
+left:-280px;
+width:280px;
+height:100%;
+background:white;
+z-index:10001;
+transition:.3s;
+box-shadow:0 0 15px rgba(0,0,0,.2);
+padding:20px;
+overflow-y:auto;
+">
+
+<h2 style="color:#d63384;">Menú</h2>
+
+<button onclick="toggleMenu()" style="
+position:absolute;
+top:10px;
+right:15px;
+background:none;
+border:none;
+font-size:25px;
+cursor:pointer;
+">
+✕
+</button>
+
+<hr>
+
+<a 
+        
+        <section id="sobre">
+<h2>💄 Sobre Nosotros</h2>
+<p>En Mujer Bonita Beauty & Style ofrecemos maquillaje,
+
+productos de belleza y accesorios de calidad para mayoreo
+
+y menudeo, buscando siempre brindar excelentes precios
+
+y la mejor atención a nuestros clientes.</p>
+</section>
+
+<section id="ubicacion">
+<h2>📍 Ubicación</h2>
+<p>Calle Zinapécuaro #1604, Colonia Hidalgo 
+    
+</p>
+</section>
+    <a
+href="https://maps.app.goo.gl/UvdtyaureRMDgYyGA"
+target="_blank"
+style="
+display:inline-block;
+background:#4285F4;
+color:white;
+padding:12px 20px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+margin-top:10px;
+">
+📍 Ver en Google Maps
+</a>
+    
+
+<section id="comentarios">
+<h2>⭐ Comentarios</h2>
+<p>★★★★★ Excelente atención</p>
+</section>
+
+</div>
+    
+
+    <header>
+                  <header style="padding: 10px 15px; position: sticky; top: 0; z-index: 100; background: linear-gradient(135deg, var(--white), var(--pink-primary)); box-shadow: var(--shadow); text-align: center;">
+        
+        <div style="display: flex; justify-content: center; margin-bottom: 2px;">
+            <img src="logo.png" alt="Logo" style="max-width: 90px; width: 100%; height: auto; object-fit: contain;">
+        </div>
+        
+        <h1 style="font-size: 16px; color: var(--pink-dark); margin-bottom: 0px; text-transform: uppercase; letter-spacing: 0.5px;">Catálogo de Maquillaje</h1>
+        <p style="font-size: 11px; color: var(--text-muted); margin-bottom: 6px;">Precios de Mayoreo y Menudeo</p>
+        
+        <div class="search-container" style="max-width: 400px; margin: 0 auto;">
+        <input type="text" id="searchInput" placeholder="Buscar cosméticos..." style="width: 100%; padding: 6px 15px; border: 2px solid var(--pink-primary); border-radius: 20px; outline: none; font-size: 13px; transition: all 0.3s ease;">
+            
+            <button onclick="filtrarCategoria('todos')">Todos</button>
+
+<button onclick="filtrarCategoria('labiales')">Labiales</button>
+
+<button onclick="filtrarCategoria('rubores')">Rubores</button>
+
+<button onclick="filtrarCategoria('pestañas')">Pestañas</button>
+
+<button onclick="filtrarCategoria('cejas')">Cejas</button>
+
+<button onclick="filtrarCategoria('bases')">Bases</button>
+
+<button onclick="filtrarCategoria('perfumes')">Perfumes</button>
+            
+<button onclick="filtrarCategoria('accesorios')">Accesorios</button>         
+            
+            <button onclick="toggleMenu()" style="
+position:absolute;
+left:15px;
+top:15px;
+background:none;
+border:none;
+font-size:28px;
+cursor:pointer;">
+☰
+</button>
+
+<div id="menuLateral" style="
+position:fixed;
+left:-250px;
+top:0;
+width:250px;
+height:100%;
+background:white;
+transition:.3s;
+z-index:10001;
+padding:20px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+">
+
+<h3>Menú</h3>
+
+<a href="#sobre">Sobre Nosotros</a><br><br>
+<a href="#ubicacion">Ubicación</a><br><br>
+<a href="#comentarios">Comentarios</a>
+
+</div>
+            
+            
+            
+        </div>
+        
+    </header>
+
+        </div>
+    </header>
+
+
+        
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="products-grid" id="productsGrid">
+            <!-- Los productos se cargan dinámicamente aquí con JavaScript -->
+        </div>
+        <div class="no-results" id="noResults">No se encontraron productos que coincidan con la búsqueda.</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mujer Bonita Store. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // === BASE DE DATOS COMPLETA DE LOS 65 PRODUCTOS ===
+        const products = [
+            // BLOQUE 1
+            { img: "1000063234.jpg", title: "Polvo Traslúcido Mineral de Cereza", pieza: 28, caja: 289 },
+            { img: "1000063230.jpg", title: "Polvo Traslúcido Nude Makeup Look", pieza: 38, caja: 201 },
+            { img: "1000063229.jpg", title: "Rubor Animado de Kuromi / My Melody", pieza: 14, caja: 289 },
+            { img: "1000063228.jpg", title: "Vaselina Labial Humectante de Animalitos", pieza: 6, caja: 122 },
+            { img: "1000063227.jpg", title: "Bálsamo Labial en forma de Fresa", pieza: 8, caja: 175 },
+            { img: "1000063226.jpg", title: "Gel Máscara para Cejas y Pestañas Transparente", pieza: 13, caja: 271 },
+            { img: "1000063138.jpg", title: "Toallitas Desmaquillantes en Vasito de Panda \"Honey\"", pieza: 17, docena: 175 },
+            { img: "1000063139.jpg", title: "Fijador Mist & Fix", pieza: 25, caja: 245 },
+            { img: "1000063134.jpg", title: "Kit de Pestañas en Grupo \"Silky Lashes\" DIY", unica: 60 },
+            { img: "1000063135.jpg", title: "Bálsamo Labial Humectante tipo Lápiz", pieza: 6, caja: 122 },
+
+            // BLOQUE 2
+            { img: "1000063136.jpg", title: "Esmalte de Uñas Efecto Gel \"Fashion Color\"", pieza: 8, caja: 157 },
+            { img: "1000063137.jpg", title: "Fijador de Maquillaje \"Stay Cool\" Spray", pieza: 26, caja: 271 },
+            { img: "1000063132.jpg", title: "Kit de Pestañas \"3D Faux Mink Lashes\" Dingsen", unica: 60 },
+            { img: "1000063133.jpg", title: "Kit de Pestañas \"DIY Cluster Lashes\"", unica: 60 },
+            { img: "1000063129.jpg", title: "Mascarillas Faciales en Tuplemento de Sandía y Panda", pieza: 5, paquete: 45 },
+            { img: "1000063130.jpg", title: "Bálsamo / Mascarilla de Noche para Labios \"Lip Sleeping Mask!\"", pieza: 16, caja: 166 },
+            { img: "1000063131.jpg", title: "Kit de Máscara Voluminizadora y Pomada para Cejas \"Volumizing\"", pieza: 40, caja: 210 },
+            { img: "1000063128.jpg", title: "Mascarillas Faciales en Tuplemento de Cereza y Aguacatito", pieza: 5, paquete: 45 },
+            { img: "1000063125.jpg", title: "Gel para Cejas de Larga Duración \"Brows\" Waterproof", pieza: 9, caja: 192 },
+            { img: "1000063126.jpg", title: "Crema para Cejas en Paleta con Espejo \"Brow Cream\"", pieza: 22, caja: 236 },
+
+            // BLOQUE 3
+            { img: "1000063127.jpg", title: "Lip Gloss con Llavero de Hello Kitty \"Create Sparkling Lips\"", pieza: 14, caja: 289 },
+            { img: "1000063124.jpg", title: "Máscara de Pestañas \"Make It Big\" Bold Black", pieza: 13, caja: 271 },
+            { img: "1000063122.jpg", title: "Kit de Rímel \"Volume Curl\" y Tinta/Pomada para Cejas \"Eyebrow Tint\"", pieza: 40, caja: 210 },
+            { img: "1000063123.jpg", title: "Labial y Rubor en Barra \"Milk Blush Lipstick\"", pieza: 12, caja: 245 },
+            { img: "1000063119.jpg", title: "Brillo Labial en Tono Chocolate \"Chocolate Lip Gloss\"", pieza: 12, caja: 255 },
+            { img: "1000063120.jpg", title: "Brillo Labial Voluminizador \"Lip Gloss Volumising Shine\"", pieza: 10, caja: 219 },
+            { img: "1000063121.jpg", title: "Jabón Corporal/Facial \"Rice Milk Soap\" con Gluta y Colágeno", pieza: 13, caja: 136 },
+            { img: "1000063117.jpg", title: "Bálsamo Labial Humectante \"Lip Glow Color Reviver Balm\"", pieza: 10, caja: 210 },
+            { img: "1000063118.jpg", title: "Brillo Labial con Llavero de Esferas Metálicas \"Galaxy Gloss\"", pieza: 27, caja: 280 },
+            { img: "1000063115.jpg", title: "Pestañas Postizas \"False Eyelashes Mink 3D Hair\"", pieza: 12, caja: 122 },
+
+            // BLOQUE 4
+            { img: "1000063116.jpg", title: "Perfiladores / Navajas para Ceja \"Eyebrow Razor\" Set de 3", pieza: 9, caja: 149 },
+            { img: "1000063113.jpg", title: "Pestañas Postizas \"New 3D Pestañas / Mink 3D Hair\"", pieza: 12, caja: 122 },
+            { img: "1000063114.jpg", title: "Base de Maquillaje de Larga Duración \"Lasting Finish SPF 20+\"", pieza: 35, caja: 359 },
+            { img: "1000063112.jpg", title: "Delineador de Ojos y Cejas \"36H Eye Brow\" Liquid Eyeliner", pieza: 12, caja: 254 },
+            { img: "1000063111.jpg", title: "Labial Líquido Mate \"Liquid Matte\"", pieza: 9, caja: 192 },
+            { img: "1000063109.jpg", title: "Parches de Colágeno para Ojos \"Collagen Crystal Eye Mask\"", pieza: 3, docena: 31 },
+            { img: "1000063108.jpg", title: "Set de Brochas Cosméticas - Tonos Azul y Rosa", paquete: 36 },
+            { img: "1000063107.jpg", title: "Set de Brochas Cosméticas - Tonos Verde y Morado", paquete: 36 },
+            { img: "1000063104.jpg", title: "Base de Maquillaje Matificante \"Perfect Matte + Poreless 12H\"", pieza: 29, caja: 306 },
+            { img: "1000063105.jpg", title: "Base de Maquillaje Fluida \"Nude Liquid Foundation\"", pieza: 35, caja: 359 },
+
+            // BLOQUE 5
+            { img: "1000063106.jpg", title: "Base de Maquillaje \"HD Liquid Coverage Foundation\"", pieza: 37, caja: 385 },
+            { img: "1000063103.jpg", title: "Brillo Labial \"New Lip Gloss - Moist\"", pieza: 13, caja: 271 },
+            { img: "1000063100.jpg", title: "Perfume de Bolsillo Hello Kitty \"Romantic\"", pieza: 13, caja: 271 },
+            { img: "1000063102.jpg", title: "Polvo Traslúcido de Lujo \"Luxury Powder Banana Setting Powder\"", pieza: 19, caja: 201 },
+            { img: "1000063089.jpg", title: "Fragancia Corporal / Body Mist Hello Kitty 88ml", pieza: 30, caja: 315 },
+            { img: "1000063093.jpg", title: "Polvo Iluminador Banana \"Banana Pouder De Luxe\"", pieza: 15, caja: 157 },
+            { img: "1000063097.jpg", title: "Polvo Compacto Mate \"Perfect Natural Face Powder SPF 35 - Fit us!\"", pieza: 27, caja: 280 },
+            { img: "1000063087.jpg", title: "Fragancia Corporal / Body Mist \"Emerald Glow\" 88ml", pieza: 30, caja: 315 },
+            { img: "1000063088.jpg", title: "Perfume de Bolsillo Kuromi \"Romantic And Rich Aroma\"", pieza: 13, caja: 271 },
+            { img: "1000063083.jpg", title: "Lápiz para Cejas 2 en 1 Impermeable \"36H Browlash Eyebrow Pencil\"", pieza: 10, caja: 210 },
+
+            // BLOQUE 6
+            { img: "1000063085.jpg", title: "Máscara para Pestañas \"Beauty Mascara Colos Sal\"", pieza: 13, caja: 262 },
+            { img: "1000063086.jpg", title: "Perfume Infantil Stitch & Angel 50ml", pieza: 32, caja: 332 },
+            { img: "1000063082.jpg", title: "Perfume de Bolsillo en Spray Hello Kitty", pieza: 11, caja: 227 },
+            { img: "1000063079.jpg", title: "Tinta Líquida para Cejas \"Grande Brow-Fill\"", pieza: 11, caja: 227 },
+            { img: "1000063081.jpg", title: "Aceite para Labios \"Lip Oil - Stay Hydrated\"", pieza: 13, caja: 262 },
+            { img: "1000063075.jpg", title: "Máscara para Pestañas \"Volumizing Lashcraft\"", pieza: 12, caja: 254 },
+            { img: "1000063077.jpg", title: "Máscara para Pestañas de Fibras \"Fiber Lashes 7D Waterproof\"", pieza: 15, caja: 315 },
+            { img: "1000063054.jpg", title: "Delineador en Gel con Brocha \"36H Delineador en Gel\"", pieza: 9, caja: 185 },
+            { img: "1000063045.jpg", title: "Máscara para Pestañas \"The Colossal Volum' Express\"", pieza: 10, caja: 201 },
+            { img: "1000063033.jpg", title: "Máscara para Pestañas \"Wrap Lash - Mega Extension & Volume\"", pieza: 15, caja: 315 },
+
+            // BLOQUE 7
+            { img: "1000063037.jpg", title: "Delineador Líquido de Colores \"Perfect Long Lasting\"", pieza: 10, caja: 201 },
+            { img: "1000063027.jpg", title: "Delineador con Sello \"Eyeliner + Seal 4Seal\"", pieza: 10, caja: 219 },
+            { img: "1000063024.jpg", title: "Delineador Líquido con Orejas de Gato \"36H Quality Eyeliner\"", pieza: 8, caja: 175 },
+            { img: "1000063020.jpg", title: "Gel y Máscara para Cejas \"Eye Brow & Mascara Glam\"", pieza: 11, caja: 227 },
+            { img: "1000063018.jpg", title: "Set de Maquillaje 3 en 1 \"The Colossal Big Shot\"", pieza: 37, caja: 385 },
+
+{
+  img: "mono_mariposa.jpg",
+  title: "Moños con Pin de Mariposa",
+  pieza: 11,
+  tira: 58,
+  categoria: "accesorios"
+},
+{
+  img: "mono_peluche.jpg",
+  title: "Moños con Peluche",
+  pieza: 12,
+  tira: 61,
+  categoria: "accesorios"
+},
+{
+  img: "mono_liston.jpg",
+  title: "Moños con Listón",
+  pieza: 11,
+  tira: 58,
+  categoria: "accesorios"
+},
+{
+  img: "mono_perlas.jpg",
+  title: "Moño con Perlas",
+  pieza: 13,
+  tira: 66,
+  categoria: "accesorios"
+},
+{
+  img: "pinceles_unas.jpg",
+  title: "Pinceles para Uñas",
+  pieza: 20,
+  docena: 210,
+  categoria: "accesorios"
+},
+{
+  img: "pinzas_figuras.jpg",
+  title: "Pinzas para Cabello Diferentes Figuras",
+  pieza: 8,
+  docena: 79,
+  categoria: "accesorios"
+},
+{
+  img: "ligas_tela.jpg",
+  title: "Ligas de Tela",
+  pieza: 7,
+  docena: 70,
+  categoria: "accesorios"
+},
+{
+  img: "ligas_tela.jpg",
+  title: "Moños Pequeños",
+  pieza: 7,
+  docena: 70,
+  categoria: "accesorios"
+},
+{
+  img: "llavero_zodiacal.jpg",
+  title: "Llavero de Signo Zodiacal",
+  pieza: 8,
+  docena: 89,
+  categoria: "accesorios"
+},
+{
+  img: "llavero_carita.jpg",
+  title: "Llavero de Metal Carita Feliz",
+  pieza: 8,
+  docena: 89,
+  categoria: "accesorios"
+},
+{
+  img: "unas_ninos.jpg",
+  title: "Uñas Postizas para Niños",
+  pieza: 8,
+  docena: 79,
+  categoria: "accesorios"
+},
+{
+  img: "mono_accesorio.jpg",
+  title: "Moño Accesorio",
+  pieza: 14,
+  docena: 149,
+  categoria: "accesorios"
+},
+{
+  img: "unas_romantic.jpg",
+  title: "Uñas Postizas Romantic",
+  pieza: 14,
+  docena: 149,
+  categoria: "accesorios"
+},
+{
+  img: "diadema_suave.jpg",
+  title: "Diadema Suave con Diseño",
+  pieza: 8,
+  docena: 79,
+  categoria: "accesorios"
+},
+{
+  img: "mono_cereza.jpg",
+  title: "Moño con Estampado de Cereza",
+  pieza: 7,
+  docena: 70,
+  categoria: "accesorios"
+},
+{
+  img: "ligas_cabello.jpg",
+  title: "Paquete de Ligas para Cabello",
+  pieza: 5,
+  docena: 49,
+  categoria: "accesorios"
+},
+{
+  img: "pinzas_disenos.jpg",
+  title: "Pinzas para Cabello con Diferentes Diseños",
+  pieza: 11,
+  docena: 114,
+  categoria: "accesorios"
+},
+{
+  img: "pinzas_zhendong.jpg",
+  title: "Pinzas para Cabello Zhendong",
+  pieza: 7,
+  docena: 66,
+  categoria: "accesorios"
+},
+{
+  img: "diadema_mono.jpg",
+  title: "Diadema Suave con Moño",
+  pieza: 15,
+  docena: 157,
+  categoria: "accesorios"
+},
+{
+  img: "bolsas_plastificadas.jpg",
+  title: "Bolsas Plastificadas Costal",
+  pieza: 8,
+  docena: 79,
+  categoria: "accesorios"
+},
+{
+  img: "esponjas_pastel.jpg",
+  title: "Esponjas de Maquillaje Colores Pastel",
+  pieza: 7,
+  docena: 70,
+  categoria: "accesorios"
+},
+{
+  img: "pinzas_ninos.jpg",
+  title: "Pinzas de Pelo para Niños",
+  pieza: 6,
+  tira: 49,
+  categoria: "accesorios"
+},
+{
+  img: "mono_brillante.jpg",
+  title: "Moño Brillante",
+  pieza: 9,
+  tira: 96,
+  categoria: "accesorios"
+},
+{
+  img: "prosa_mascara.jpg",
+  title: "Prosa Máscara para Pestañas",
+  pieza: 45,
+  mayoreo: 35,
+  categoria: "pestañas"
+},
+{
+  img: "mono_pastel.jpg",
+  title: "Moño en Colores Pastel y Blanco",
+  pieza: 8,
+  tira: 79,
+  categoria: "accesorios"
+},
+{
+  img: "cortaunas.jpg",
+  title: "Cortauñas",
+  pieza: 6,
+  caja: 58,
+  categoria: "accesorios"
+},
+{
+  img: "mono_grande.jpg",
+  title: "Moño Grande",
+  pieza: 6,
+  docena: 66,
+  categoria: "accesorios"
+},
+{
+  img: "llaveros.jpg",
+  title: "Llaveros",
+  pieza: 10,
+  categoria: "accesorios"
+},
+{
+  img: "mono_liston2.jpg",
+  title: "Moño con Listón",
+  pieza: 6,
+  docena: 66,
+  categoria: "accesorios"
+},
+
+        ];
+
+
+
+        const grid = document.getElementById('productsGrid');
+        const noResults = document.getElementById('noResults');
+        const searchInput = document.getElementById('searchInput');
+
+        // FUNCIÓN PARA RENDERIZAR LAS TARJETAS EN PANTALLA
+        function renderProducts(filterText = '') {
+            grid.innerHTML = '';
+            const filtered = products.filter(p => p.title.toLowerCase().includes(filterText.toLowerCase()));
+
+            if (filtered.length === 0) {
+                noResults.style.display = 'block';
+                return;
+            }
+            noResults.style.display = 'none';
+
+            filtered.forEach(p => {
+                let priceHTML = '';
+                
+                // Valida qué tipo de precios tiene asignado el producto
+                if (p.unica) {
+                    priceHTML = `<div class="price-row"><span class="price-label">P. Único:</span><span class="price-value">$${p.unica}</span></div>`;
+                } else {
+                    if (p.pieza) priceHTML += `<div class="price-row"><span class="price-label">Pieza:</span><span class="price-value">$${p.pieza}</span></div>`;
+                    if (p.caja) priceHTML += `<div class="price-row"><span class="price-label">Caja:</span><span class="price-value">$${p.caja}</span></div>`;
+                    if (p.docena) priceHTML += `<div class="price-row"><span class="price-label">Docena:</span><span class="price-value">$${p.docena}</span></div>`;
+                    if (p.paquete) priceHTML += `<div class="price-row"><span class="price-label">Paquete:</span><span class="price-value">$${p.paquete}</span></div>`;
+                }
+
+                const card = document.createElement('article');
+                card.className = 'product-card';
+                card.innerHTML = `
+    <div class="image-wrapper">
+        <img src="${p.img}" alt="${p.title}" loading="lazy">
+    </div>
+
+    <div class="product-info">
+        <h2 class="product-title">${p.title}</h2>
+
+        <div class="price-box">
+            ${priceHTML}
+        </div>
+
+        <button
+class="add-btn"
+onclick='agregarCarrito(${JSON.stringify(p.title)}, ${p.unica || p.pieza || p.paquete || p.docena || 0})'>
+🛒 Agregar al carrito
+</button>
+    </div>
+`;
+             
+                grid.appendChild(card);
+            });
+        }
+
+        // ESCUCHADOR DEL BUSCADOR EN TIEMPO REAL
+        searchInput.addEventListener('input', (e) => {
+    renderProducts(e.target.value);
+});
+
+        // CARGA INICIAL CON TODOS LOS PRODUCTOS
+        
+function filtrarCategoria(cat){
+
+    const cards = document.querySelectorAll('.product-card');
+
+    cards.forEach(card => {
+
+        const nombre = card.querySelector('.product-title')
+        .textContent
+        .toLowerCase();
+
+        let mostrar = false;
+
+        switch(cat){
+
+            case 'todos':
+                mostrar = true;
+                break;
+
+            case 'labiales':
+                mostrar =
+                nombre.includes('labial') ||
+                nombre.includes('lip') ||
+                nombre.includes('gloss') ||
+                nombre.includes('bálsamo');
+                break;
+
+            case 'rubores':
+                mostrar =
+                nombre.includes('rubor') ||
+                nombre.includes('blush');
+                break;
+
+            case 'pestañas':
+                mostrar =
+                nombre.includes('pestaña') ||
+                nombre.includes('lash') ||
+                nombre.includes('máscara');
+                break;
+
+            case 'cejas':
+                mostrar =
+                nombre.includes('ceja') ||
+                nombre.includes('brow');
+                break;
+
+            case 'bases':
+                mostrar =
+                nombre.includes('base');
+                break;
+
+            case 'perfumes':
+                mostrar =
+                nombre.includes('perfume') ||
+                nombre.includes('fragancia') ||
+                nombre.includes('body mist');
+                break;
+            
+           case 'accesorios':
+    mostrar =
+    nombre.includes('moño') ||
+    nombre.includes('pinza') ||
+    nombre.includes('llavero') ||
+    nombre.includes('liga') ||
+    nombre.includes('diadema') ||
+    nombre.includes('cortauñas') ||
+    nombre.includes('esponja') ||
+    nombre.includes('bolsa') ||
+    nombre.includes('pincel');
+    break;
+             }
+
+        card.style.display = mostrar ? 'block' : 'none';
+
+    });
+
+}
+
+
+
+function toggleMenu(){
+
+    const menu = document.getElementById("menuLateral");
+
+    if(menu.style.left === "0px"){
+        menu.style.left = "-280px";
+    }else{
+        menu.style.left = "0px";
+    }
+
+}
+
+
+
+renderProducts();
+ 
+
+
+</script>
+<section style="background-color: #fff5f7; padding: 30px 20px; text-align: center; border-radius: 20px; margin: 20px 15px; font-family: sans-serif; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+    <h2 style="color: #d63384; margin-top: 0; font-size: 20px;">📍 Recoge tu Pedido en Local</h2>
+    <p style="color: #555; font-size: 14px; line-height: 1.5; max-width: 350px; margin: 10px auto 20px auto;">
+        Haz tu carrito aquí mismo, mándanoslo por WhatsApp y te lo tendremos listo y empacado para cuando vengas por él.
+    </p>
+    
+    <div style="background: white; padding: 15px; border-radius: 12px; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 15px;">
+        <span style="font-size: 24px;">🏠</span>
+        <p style="margin: 5px 0 0 0; font-weight: bold; color: #333; font-size: 14px;">Nuestra Dirección:</p>
+        <p style="margin: 3px 0 0 0; color: #666; font-size: 13px;">[calle zinapecuaro,numero 1604,colonia hidalgo]</p>
+    </div>
+    
+    <div>
+        <a href="https://maps.app.goo.gl/UvdtyaureRMDgYyGA" target="_blank" style="background-color: #d63384; color: white; text-decoration: none; padding: 10px 20px; border-radius: 25px; font-weight: bold; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 3px 8px rgba(214,51,132,0.2);">
+            🗺️ Ver en Google Maps
+        </a>
+    </div>
+</section>
+<div id="btn-carrito" style="position: fixed; bottom: 20px; right: 20px; background: #d63384; color: white; padding: 15px 25px; border-radius: 50px; font-weight: bold; z-index: 999
+</div>
+
+<script>
+    
+        
+    
+</script>
+
+</script>
+
+
+</html>
