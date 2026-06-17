@@ -1,0 +1,770 @@
+[
+  {
+    "id": 1,
+    "current_img": "IMG-20260616-WA0029.jpg",
+    "correct_img": "IMG-20260616-WA0029.jpg",
+    "matches": true,
+    "image_shows": "Polvo Traslúcido Mineral de Cereza Loose Powder",
+    "prices_on_image": "pieza $28, caja $289"
+  },
+  {
+    "id": 2,
+    "current_img": "IMG-20260616-WA0033.jpg",
+    "correct_img": "IMG-20260616-WA0059.jpg",
+    "matches": false,
+    "image_shows": "Polvo Traslúcido Nude Makeup Look",
+    "prices_on_image": "pieza $38, caja $201"
+  },
+  {
+    "id": 3,
+    "current_img": "IMG-20260616-WA0034.jpg",
+    "correct_img": "IMG-20260616-WA0058.jpg",
+    "matches": false,
+    "image_shows": "Rubor Kuromi / My Melody",
+    "prices_on_image": "pieza $14, caja $289"
+  },
+  {
+    "id": 4,
+    "current_img": "IMG-20260616-WA0035.jpg",
+    "correct_img": "IMG-20260616-WA0043.jpg",
+    "matches": false,
+    "image_shows": "Vaselina Labial Animalitos Petroleum Jelly",
+    "prices_on_image": "pieza $6, caja $122"
+  },
+  {
+    "id": 5,
+    "current_img": "IMG-20260616-WA0036.jpg",
+    "correct_img": "IMG-20260616-WA0041.jpg",
+    "matches": false,
+    "image_shows": "Bálsamo Labial Fresa Strawberry Lip Balm",
+    "prices_on_image": "pieza $8, caja $175"
+  },
+  {
+    "id": 6,
+    "current_img": "IMG-20260616-WA0037.jpg",
+    "correct_img": "IMG-20260616-WA0074.jpg",
+    "matches": false,
+    "image_shows": "Gel Máscara Cejas y Pestañas Transparente Brow & Lash",
+    "prices_on_image": "pieza $13, caja $271"
+  },
+  {
+    "id": 7,
+    "current_img": "IMG-20260616-WA0038.jpg",
+    "correct_img": "IMG-20260616-WA0008.jpg",
+    "matches": false,
+    "image_shows": "Toallitas Desmaquillantes Honey Panda",
+    "prices_on_image": "pieza $17, docena $175"
+  },
+  {
+    "id": 8,
+    "current_img": "IMG-20260616-WA0039.jpg",
+    "correct_img": "IMG-20260616-WA0038.jpg",
+    "matches": false,
+    "image_shows": "Fijador Mist & Fix",
+    "prices_on_image": "pieza $25, caja $245"
+  },
+  {
+    "id": 9,
+    "current_img": "IMG-20260616-WA0040.jpg",
+    "correct_img": "IMG-20260616-WA0036.jpg",
+    "matches": false,
+    "image_shows": "Kit Pestañas Silky Lashes DIY Cluster",
+    "prices_on_image": "única $60"
+  },
+  {
+    "id": 10,
+    "current_img": "IMG-20260616-WA0041.jpg",
+    "correct_img": "IMG-20260616-WA0025.jpg",
+    "matches": false,
+    "image_shows": "Bálsamo Labial Humectante tipo Lápiz",
+    "prices_on_image": "pieza $6, caja $122"
+  },
+  {
+    "id": 11,
+    "current_img": "IMG-20260616-WA0042.jpg",
+    "correct_img": "IMG-20260616-WA0040.jpg",
+    "matches": false,
+    "image_shows": "Esmalte Uñas Fashion Color Gel Effect",
+    "prices_on_image": "pieza $8, caja $157"
+  },
+  {
+    "id": 12,
+    "current_img": "IMG-20260616-WA0043.jpg",
+    "correct_img": "IMG-20260616-WA0070.jpg",
+    "matches": false,
+    "image_shows": "Fijador Stay Cool Makeup Fix Spray",
+    "prices_on_image": "pieza $26, caja $271"
+  },
+  {
+    "id": 13,
+    "current_img": "IMG-20260616-WA0044.jpg",
+    "correct_img": "IMG-20260616-WA0067.jpg",
+    "matches": false,
+    "image_shows": "Kit Pestañas 3D Faux Mink Lashes Dingsen",
+    "prices_on_image": "única $60"
+  },
+  {
+    "id": 14,
+    "current_img": "IMG-20260616-WA0045.jpg",
+    "correct_img": "IMG-20260616-WA0072.jpg",
+    "matches": false,
+    "image_shows": "Kit Pestañas DIY Cluster Lashes",
+    "prices_on_image": "única $60"
+  },
+  {
+    "id": 15,
+    "current_img": "IMG-20260616-WA0046.jpg",
+    "correct_img": "IMG-20260616-WA0056.jpg",
+    "matches": false,
+    "image_shows": "Mascarillas Sandía y Panda",
+    "prices_on_image": "pieza $5, paquete $45"
+  },
+  {
+    "id": 16,
+    "current_img": "IMG-20260616-WA0047.jpg",
+    "correct_img": "IMG-20260616-WA0019.jpg",
+    "matches": false,
+    "image_shows": "Bálsamo Mascarilla Noche Labios Lip Sleeping Mask",
+    "prices_on_image": "pieza $16, caja $166"
+  },
+  {
+    "id": 17,
+    "current_img": "IMG-20260616-WA0048.jpg",
+    "correct_img": "IMG-20260616-WA0017.jpg",
+    "matches": false,
+    "image_shows": "Kit Máscara Voluminizadora y Pomada Cejas Volumizing",
+    "prices_on_image": "pieza $40, caja $210"
+  },
+  {
+    "id": 18,
+    "current_img": "IMG-20260616-WA0049.jpg",
+    "correct_img": "IMG-20260616-WA0051.jpg",
+    "matches": false,
+    "image_shows": "Mascarillas Cereza y Aguacatito",
+    "prices_on_image": "sin overlay visible"
+  },
+  {
+    "id": 19,
+    "current_img": "IMG-20260616-WA0050.jpg",
+    "correct_img": "IMG-20260616-WA0002.jpg",
+    "matches": false,
+    "image_shows": "Gel para Cejas BROWS Long Lasting Waterproof",
+    "prices_on_image": "pieza $9, caja $192"
+  },
+  {
+    "id": 20,
+    "current_img": "IMG-20260616-WA0051.jpg",
+    "correct_img": "IMG-20260616-WA0063.jpg",
+    "matches": false,
+    "image_shows": "Crema Cejas Brow Cream en Paleta",
+    "prices_on_image": "pieza $22, caja $236"
+  },
+  {
+    "id": 21,
+    "current_img": "IMG-20260616-WA0052.jpg",
+    "correct_img": "IMG-20260616-WA0034.jpg",
+    "matches": false,
+    "image_shows": "Lip Gloss Hello Kitty Create Sparkling Lips",
+    "prices_on_image": "pieza $14, caja $289"
+  },
+  {
+    "id": 22,
+    "current_img": "IMG-20260616-WA0053.jpg",
+    "correct_img": "IMG-20260616-WA0068.jpg",
+    "matches": false,
+    "image_shows": "Máscara Make It Big Bold Black",
+    "prices_on_image": "pieza $13, caja $271"
+  },
+  {
+    "id": 23,
+    "current_img": "IMG-20260616-WA0054.jpg",
+    "correct_img": "IMG-20260616-WA0026.jpg",
+    "matches": false,
+    "image_shows": "Kit Rímel Volume Curl y Tinta Cejas Eyebrow Tint",
+    "prices_on_image": "pieza $40, caja $210"
+  },
+  {
+    "id": 24,
+    "current_img": "IMG-20260616-WA0055.jpg",
+    "correct_img": "IMG-20260616-WA0053.jpg",
+    "matches": false,
+    "image_shows": "Labial y Rubor Milk Blush Lipstick",
+    "prices_on_image": "pieza $12, caja $245"
+  },
+  {
+    "id": 25,
+    "current_img": "IMG-20260616-WA0056.jpg",
+    "correct_img": "IMG-20260616-WA0057.jpg",
+    "matches": false,
+    "image_shows": "Brillo Labial Chocolate Lip Gloss",
+    "prices_on_image": "pieza $12, caja $255"
+  },
+  {
+    "id": 26,
+    "current_img": "IMG-20260616-WA0057.jpg",
+    "correct_img": "IMG-20260616-WA0062.jpg",
+    "matches": false,
+    "image_shows": "Brillo Labial Voluminizador Lip Gloss Volumising Shine",
+    "prices_on_image": "pieza $10, caja $219"
+  },
+  {
+    "id": 27,
+    "current_img": "IMG-20260616-WA0058.jpg",
+    "correct_img": "IMG-20260616-WA0031.jpg",
+    "matches": false,
+    "image_shows": "Jabón Rice Milk Soap Gluta + Colágeno",
+    "prices_on_image": "pieza $13, caja $136"
+  },
+  {
+    "id": 28,
+    "current_img": "IMG-20260616-WA0059.jpg",
+    "correct_img": "IMG-20260616-WA0028.jpg",
+    "matches": false,
+    "image_shows": "Bálsamo Labial Lip Glow Color Reviver Balm",
+    "prices_on_image": "pieza $10, caja $210"
+  },
+  {
+    "id": 29,
+    "current_img": "IMG-20260616-WA0060.jpg",
+    "correct_img": "IMG-20260616-WA0066.jpg",
+    "matches": false,
+    "image_shows": "Brillo Labial Galaxy Gloss con llavero",
+    "prices_on_image": "pieza $27, caja $280"
+  },
+  {
+    "id": 30,
+    "current_img": "IMG-20260616-WA0061.jpg",
+    "correct_img": "IMG-20260616-WA0010.jpg",
+    "matches": false,
+    "image_shows": "Pestañas Postizas False Eyelashes Mink 3D Hair 006",
+    "prices_on_image": "pieza $12, caja $122"
+  },
+  {
+    "id": 31,
+    "current_img": "IMG-20260616-WA0062.jpg",
+    "correct_img": "IMG-20260616-WA0007.jpg",
+    "matches": false,
+    "image_shows": "Perfiladores Navajas para Ceja Eyebrow Razor Set de 3",
+    "prices_on_image": "pieza $9, caja $149"
+  },
+  {
+    "id": 32,
+    "current_img": "IMG-20260616-WA0063.jpg",
+    "correct_img": "IMG-20260616-WA0001.jpg",
+    "matches": false,
+    "image_shows": "Pestañas Postizas NEW 3D Pestañas Mink 3D Hair",
+    "prices_on_image": "pieza $12, caja $122"
+  },
+  {
+    "id": 33,
+    "current_img": "IMG-20260616-WA0064.jpg",
+    "correct_img": "IMG-20260616-WA0027.jpg",
+    "matches": false,
+    "image_shows": "Base Lasting Finish SPF 20+",
+    "prices_on_image": "pieza $35, caja $359"
+  },
+  {
+    "id": 34,
+    "current_img": "IMG-20260616-WA0065.jpg",
+    "correct_img": "IMG-20260616-WA0061.jpg",
+    "matches": false,
+    "image_shows": "Delineador Ojos y Cejas 36H Eye Brow Liquid Eyeliner",
+    "prices_on_image": "pieza $12, caja $254"
+  },
+  {
+    "id": 35,
+    "current_img": "IMG-20260616-WA0066.jpg",
+    "correct_img": "IMG-20260616-WA0047.jpg",
+    "matches": false,
+    "image_shows": "Labial Líquido Mate Liquid Matte",
+    "prices_on_image": "pieza $9, caja $192"
+  },
+  {
+    "id": 36,
+    "current_img": "IMG-20260616-WA0067.jpg",
+    "correct_img": "IMG-20260616-WA0052.jpg",
+    "matches": false,
+    "image_shows": "Parches Colágeno Collagen Crystal Eye Mask",
+    "prices_on_image": "pieza $3, docena $31"
+  },
+  {
+    "id": 37,
+    "current_img": "IMG-20260616-WA0068.jpg",
+    "correct_img": "IMG-20260616-WA0011.jpg",
+    "matches": false,
+    "image_shows": "Set de Brochas Cosméticas Tonos Azul y Rosa",
+    "prices_on_image": "paquete $36"
+  },
+  {
+    "id": 38,
+    "current_img": "IMG-20260616-WA0069.jpg",
+    "correct_img": "IMG-20260616-WA0073.jpg",
+    "matches": false,
+    "image_shows": "Set Brochas Cosméticas Tonos Verde y Morado",
+    "prices_on_image": "paquete $36 (sin overlay)"
+  },
+  {
+    "id": 39,
+    "current_img": "IMG-20260616-WA0070.jpg",
+    "correct_img": "IMG-20260616-WA0015.jpg",
+    "matches": false,
+    "image_shows": "Base Matificante Perfect Matte + Poreless 12H",
+    "prices_on_image": "pieza $29, caja $306"
+  },
+  {
+    "id": 40,
+    "current_img": "IMG-20260616-WA0071.jpg",
+    "correct_img": "IMG-20260616-WA0016.jpg",
+    "matches": false,
+    "image_shows": "Base de Maquillaje Fluida Nude Liquid Foundation",
+    "prices_on_image": "pieza $35, caja $359"
+  },
+  {
+    "id": 41,
+    "current_img": "IMG-20260616-WA0072.jpg",
+    "correct_img": "IMG-20260616-WA0042.jpg",
+    "matches": false,
+    "image_shows": "Base HD Liquid Coverage Foundation",
+    "prices_on_image": "pieza $37, caja $385"
+  },
+  {
+    "id": 42,
+    "current_img": "IMG-20260616-WA0073.jpg",
+    "correct_img": "IMG-20260616-WA0024.jpg",
+    "matches": false,
+    "image_shows": "Brillo Labial New Lip Gloss Moist",
+    "prices_on_image": "pieza $13, caja $271"
+  },
+  {
+    "id": 43,
+    "current_img": "IMG-20260616-WA0074.jpg",
+    "correct_img": "IMG-20260616-WA0071.jpg",
+    "matches": false,
+    "image_shows": "Perfume Bolsillo Hello Kitty Romantic",
+    "prices_on_image": "pieza $13, caja $271"
+  },
+  {
+    "id": 44,
+    "current_img": "IMG-20260616-WA0075.jpg",
+    "correct_img": "IMG-20260616-WA0035.jpg",
+    "matches": false,
+    "image_shows": "Polvo Traslúcido Luxury Banana Setting Powder",
+    "prices_on_image": "pieza $19, caja $201"
+  },
+  {
+    "id": 45,
+    "current_img": "IMG-20260616-WA0076.jpg",
+    "correct_img": "IMG-20260616-WA0048.jpg",
+    "matches": false,
+    "image_shows": "Fragancia Body Mist Hello Kitty 88ml",
+    "prices_on_image": "pieza $30, caja $315"
+  },
+  {
+    "id": 46,
+    "current_img": "IMG-20260616-WA0077.jpg",
+    "correct_img": "IMG-20260616-WA0003.jpg",
+    "matches": false,
+    "image_shows": "Polvo Iluminador Banana Pouder De Luxe",
+    "prices_on_image": "pieza $15, caja $157"
+  },
+  {
+    "id": 47,
+    "current_img": "IMG-20260616-WA0078.jpg",
+    "correct_img": "IMG-20260616-WA0030.jpg",
+    "matches": false,
+    "image_shows": "Polvo Compacto Mate Perfect Natural Face Powder Fit us!",
+    "prices_on_image": "pieza $27, caja $280"
+  },
+  {
+    "id": 48,
+    "current_img": "IMG-20260616-WA0079.jpg",
+    "correct_img": "IMG-20260616-WA0009.jpg",
+    "matches": false,
+    "image_shows": "Fragancia Body Mist Emerald Glow 88ml",
+    "prices_on_image": "pieza $30, caja $315"
+  },
+  {
+    "id": 49,
+    "current_img": "IMG-20260616-WA0080.jpg",
+    "correct_img": "IMG-20260616-WA0050.jpg",
+    "matches": false,
+    "image_shows": "Perfume Bolsillo Kuromi Romantic And Rich Aroma",
+    "prices_on_image": "pieza $13, caja $271"
+  },
+  {
+    "id": 50,
+    "current_img": "IMG-20260616-WA0081.jpg",
+    "correct_img": "IMG-20260616-WA0032.jpg",
+    "matches": false,
+    "image_shows": "Lápiz Cejas 36H Browlash Eyebrow Pencil",
+    "prices_on_image": "pieza $10, caja $210"
+  },
+  {
+    "id": 51,
+    "current_img": "IMG-20260616-WA0082.jpg",
+    "correct_img": "IMG-20260616-WA0044.jpg",
+    "matches": false,
+    "image_shows": "Máscara Beauty Mascara Colos Sal",
+    "prices_on_image": "pieza $13, caja $262"
+  },
+  {
+    "id": 52,
+    "current_img": "IMG-20260616-WA0083.jpg",
+    "correct_img": "IMG-20260616-WA0049.jpg",
+    "matches": false,
+    "image_shows": "Perfume Infantil Stitch & Angel 50ml",
+    "prices_on_image": "pieza $32, caja $332"
+  },
+  {
+    "id": 53,
+    "current_img": "IMG-20260616-WA0084.jpg",
+    "correct_img": "IMG-20260616-WA0000.jpg",
+    "matches": false,
+    "image_shows": "Perfume de Bolsillo Hello Kitty Spray FAVORBEAUTY",
+    "prices_on_image": "pieza $11, caja $227"
+  },
+  {
+    "id": 54,
+    "current_img": "IMG-20260616-WA0085.jpg",
+    "correct_img": "IMG-20260616-WA0045.jpg",
+    "matches": false,
+    "image_shows": "Tinta Cejas Grande Brow-Fill",
+    "prices_on_image": "pieza $11, caja $227"
+  },
+  {
+    "id": 55,
+    "current_img": "IMG-20260616-WA0086.jpg",
+    "correct_img": "IMG-20260616-WA0023.jpg",
+    "matches": false,
+    "image_shows": "Aceite para Labios Lip Oil Stay Hydrated",
+    "prices_on_image": "pieza $13, caja $262"
+  },
+  {
+    "id": 56,
+    "current_img": "IMG-20260616-WA0087.jpg",
+    "correct_img": "IMG-20260616-WA0018.jpg",
+    "matches": false,
+    "image_shows": "Máscara Volumizing Lashcraft",
+    "prices_on_image": "pieza $12, caja $254"
+  },
+  {
+    "id": 57,
+    "current_img": "IMG-20260616-WA0088.jpg",
+    "correct_img": "IMG-20260616-WA0033.jpg",
+    "matches": false,
+    "image_shows": "Máscara Fiber Lashes 7D Waterproof",
+    "prices_on_image": "pieza $15, caja $315"
+  },
+  {
+    "id": 58,
+    "current_img": "IMG-20260616-WA0089.jpg",
+    "correct_img": "IMG-20260616-WA0079.jpg",
+    "matches": false,
+    "image_shows": "Delineador en Gel 36H con Brocha",
+    "prices_on_image": "pieza $9, caja $185"
+  },
+  {
+    "id": 59,
+    "current_img": "IMG-20260616-WA0090.jpg",
+    "correct_img": "IMG-20260616-WA0046.jpg",
+    "matches": false,
+    "image_shows": "Máscara The Colossal Volum' Express",
+    "prices_on_image": "pieza $10, caja $201"
+  },
+  {
+    "id": 60,
+    "current_img": "IMG-20260616-WA0091.jpg",
+    "correct_img": "IMG-20260616-WA0077.jpg",
+    "matches": false,
+    "image_shows": "Máscara Wrap Lash Mega Extension & Volume",
+    "prices_on_image": "pieza $15, caja $315"
+  },
+  {
+    "id": 61,
+    "current_img": "IMG-20260616-WA0092.jpg",
+    "correct_img": "IMG-20260616-WA0013.jpg",
+    "matches": false,
+    "image_shows": "Delineador Líquido de Colores Perfect Long Lasting",
+    "prices_on_image": "pieza $10, caja $201"
+  },
+  {
+    "id": 62,
+    "current_img": "IMG-20260616-WA0093.jpg",
+    "correct_img": "IMG-20260616-WA0012.jpg",
+    "matches": false,
+    "image_shows": "Delineador con Sello Eyeliner+Seal 4Seal",
+    "prices_on_image": "pieza $10, caja $219"
+  },
+  {
+    "id": 63,
+    "current_img": "IMG-20260616-WA0094.jpg",
+    "correct_img": "IMG-20260616-WA0064.jpg",
+    "matches": false,
+    "image_shows": "Delineador 36H Quality Eyeliner orejas gato",
+    "prices_on_image": "pieza $8, caja $175"
+  },
+  {
+    "id": 64,
+    "current_img": "IMG-20260616-WA0095.jpg",
+    "correct_img": "IMG-20260616-WA0004.jpg",
+    "matches": false,
+    "image_shows": "Gel y Máscara para Cejas Eye Brow & Mascara Glam",
+    "prices_on_image": "pieza $11, caja $227"
+  },
+  {
+    "id": 65,
+    "current_img": "IMG-20260616-WA0000.jpg",
+    "correct_img": "IMG-20260616-WA0037.jpg",
+    "matches": false,
+    "image_shows": "Set Maquillaje 3 en 1 The Colossal Big Shot",
+    "prices_on_image": "pieza $37, caja $385"
+  },
+  {
+    "id": 66,
+    "current_img": "IMG-20260616-WA0001.jpg",
+    "correct_img": "IMG-20260616-WA0005.jpg",
+    "matches": false,
+    "image_shows": "Moños con Pin de Mariposa en tira",
+    "prices_on_image": "par $11, tira $58"
+  },
+  {
+    "id": 67,
+    "current_img": "IMG-20260616-WA0002.jpg",
+    "correct_img": "IMG-20260616-WA0091.jpg",
+    "matches": false,
+    "image_shows": "Moños con Peluche en tira",
+    "prices_on_image": "par $12, tira $61"
+  },
+  {
+    "id": 68,
+    "current_img": "IMG-20260616-WA0003.jpg",
+    "correct_img": "IMG-20260616-WA0081.jpg",
+    "matches": false,
+    "image_shows": "Moños con Listón organza",
+    "prices_on_image": "par $11, tira $58"
+  },
+  {
+    "id": 69,
+    "current_img": "IMG-20260616-WA0004.jpg",
+    "correct_img": "IMG-20260616-WA0076.jpg",
+    "matches": false,
+    "image_shows": "Moño con Perlas y pedrería",
+    "prices_on_image": "par $13, tira $66"
+  },
+  {
+    "id": 70,
+    "current_img": "IMG-20260616-WA0005.jpg",
+    "correct_img": "IMG-20260616-WA0083.jpg",
+    "matches": false,
+    "image_shows": "Pinceles para Uñas",
+    "prices_on_image": "paquete $20, docena $210"
+  },
+  {
+    "id": 71,
+    "current_img": "IMG-20260616-WA0006.jpg",
+    "correct_img": "IMG-20260616-WA0065.jpg",
+    "matches": false,
+    "image_shows": "Pinzas Cabello brillantes figuras",
+    "prices_on_image": "par $8, docena $79"
+  },
+  {
+    "id": 72,
+    "current_img": "IMG-20260616-WA0007.jpg",
+    "correct_img": "IMG-20260616-WA0054.jpg",
+    "matches": false,
+    "image_shows": "Ligas de Tela — SIN FOTO DE PRODUCTO en el lote (placeholder logo)",
+    "prices_on_image": "catálogo: pieza $7, docena $70"
+  },
+  {
+    "id": 73,
+    "current_img": "IMG-20260616-WA0008.jpg",
+    "correct_img": "IMG-20260616-WA0006.jpg",
+    "matches": false,
+    "image_shows": "Moños Pequeños / kit moño + liga accesorio",
+    "prices_on_image": "pieza $7, docena $70"
+  },
+  {
+    "id": 74,
+    "current_img": "IMG-20260616-WA0009.jpg",
+    "correct_img": "IMG-20260616-WA0055.jpg",
+    "matches": false,
+    "image_shows": "Llavero Signo Zodiacal Aries",
+    "prices_on_image": "pieza $8, docena $49 (catálogo docena $89)"
+  },
+  {
+    "id": 75,
+    "current_img": "IMG-20260616-WA0010.jpg",
+    "correct_img": "IMG-20260616-WA0093.jpg",
+    "matches": false,
+    "image_shows": "Llavero Metal Carita Feliz",
+    "prices_on_image": "sin overlay visible"
+  },
+  {
+    "id": 76,
+    "current_img": "IMG-20260616-WA0011.jpg",
+    "correct_img": "IMG-20260616-WA0014.jpg",
+    "matches": false,
+    "image_shows": "Uñas Postizas para Niños Children's Nails",
+    "prices_on_image": "pieza $8, docena $79"
+  },
+  {
+    "id": 77,
+    "current_img": "IMG-20260616-WA0012.jpg",
+    "correct_img": "IMG-20260616-WA0089.jpg",
+    "matches": false,
+    "image_shows": "Moño Accesorio hebilla perla",
+    "prices_on_image": "pieza $14, docena $149"
+  },
+  {
+    "id": 78,
+    "current_img": "IMG-20260616-WA0013.jpg",
+    "correct_img": "IMG-20260616-WA0086.jpg",
+    "matches": false,
+    "image_shows": "Uñas Postizas Romantic Myth",
+    "prices_on_image": "pieza $14, docena $149"
+  },
+  {
+    "id": 79,
+    "current_img": "IMG-20260616-WA0014.jpg",
+    "correct_img": "IMG-20260616-WA0060.jpg",
+    "matches": false,
+    "image_shows": "Diadema Suave con Diseño infantil",
+    "prices_on_image": "pieza $8, docena $79"
+  },
+  {
+    "id": 80,
+    "current_img": "IMG-20260616-WA0015.jpg",
+    "correct_img": "IMG-20260616-WA0022.jpg",
+    "matches": false,
+    "image_shows": "Moño con Estampado de Cereza",
+    "prices_on_image": "par $7, docena $70"
+  },
+  {
+    "id": 81,
+    "current_img": "IMG-20260616-WA0016.jpg",
+    "correct_img": "IMG-20260616-WA0087.jpg",
+    "matches": false,
+    "image_shows": "Paquete de Ligas para Cabello",
+    "prices_on_image": "pieza $5, docena $49"
+  },
+  {
+    "id": 82,
+    "current_img": "IMG-20260616-WA0017.jpg",
+    "correct_img": "IMG-20260616-WA0088.jpg",
+    "matches": false,
+    "image_shows": "Pinzas Cabello con Diferentes Diseños flores",
+    "prices_on_image": "pieza $11, docena $114"
+  },
+  {
+    "id": 83,
+    "current_img": "IMG-20260616-WA0018.jpg",
+    "correct_img": "IMG-20260616-WA0085.jpg",
+    "matches": false,
+    "image_shows": "Pinzas Cabello Zhendong Horquillas",
+    "prices_on_image": "pieza $7, docena $66"
+  },
+  {
+    "id": 84,
+    "current_img": "IMG-20260616-WA0019.jpg",
+    "correct_img": "IMG-20260616-WA0084.jpg",
+    "matches": false,
+    "image_shows": "Diadema Suave con Moño peluche",
+    "prices_on_image": "pieza $15, docena $157"
+  },
+  {
+    "id": 85,
+    "current_img": "IMG-20260616-WA0020.jpg",
+    "correct_img": "IMG-20260616-WA0069.jpg",
+    "matches": false,
+    "image_shows": "Bolsas Plastificadas ilustración hada",
+    "prices_on_image": "pieza $8, docena $79"
+  },
+  {
+    "id": 86,
+    "current_img": "IMG-20260616-WA0021.jpg",
+    "correct_img": "IMG-20260616-WA0082.jpg",
+    "matches": false,
+    "image_shows": "Esponjas Maquillaje Colores Pastel",
+    "prices_on_image": "pieza $7, docena $70"
+  },
+  {
+    "id": 87,
+    "current_img": "IMG-20260616-WA0022.jpg",
+    "correct_img": "IMG-20260616-WA0095.jpg",
+    "matches": false,
+    "image_shows": "Pinzas de Pelo para Niños mariposa/conejo",
+    "prices_on_image": "par $6, tira $49"
+  },
+  {
+    "id": 88,
+    "current_img": "IMG-20260616-WA0023.jpg",
+    "correct_img": "IMG-20260616-WA0078.jpg",
+    "matches": false,
+    "image_shows": "Moño Brillante lentejuelas HT-3537",
+    "prices_on_image": "pieza $9, tira $96"
+  },
+  {
+    "id": 89,
+    "current_img": "IMG-20260616-WA0024.jpg",
+    "correct_img": "IMG-20260616-WA0094.jpg",
+    "matches": false,
+    "image_shows": "Prosa Máscara para Pestañas",
+    "prices_on_image": "pieza $45, mayoreo $35"
+  },
+  {
+    "id": 90,
+    "current_img": "IMG-20260616-WA0025.jpg",
+    "correct_img": "IMG-20260616-WA0092.jpg",
+    "matches": false,
+    "image_shows": "Moño Colores Pastel y Blanco en tira",
+    "prices_on_image": "pieza $8, tira $79"
+  },
+  {
+    "id": 91,
+    "current_img": "IMG-20260616-WA0026.jpg",
+    "correct_img": "IMG-20260616-WA0075.jpg",
+    "matches": false,
+    "image_shows": "Cortauñas Hai Shun",
+    "prices_on_image": "pieza $6, caja $58"
+  },
+  {
+    "id": 92,
+    "current_img": "IMG-20260616-WA0027.jpg",
+    "correct_img": "IMG-20260616-WA0020.jpg",
+    "matches": false,
+    "image_shows": "Moño Grande rosa con pedrería",
+    "prices_on_image": "pieza $6, docena $66"
+  },
+  {
+    "id": 93,
+    "current_img": "IMG-20260616-WA0028.jpg",
+    "correct_img": "IMG-20260616-WA0021.jpg",
+    "matches": false,
+    "image_shows": "Llaveros variados",
+    "prices_on_image": "pieza $10"
+  },
+  {
+    "id": 94,
+    "current_img": "IMG-20260616-WA0030.jpg",
+    "correct_img": "IMG-20260616-WA0039.jpg",
+    "matches": false,
+    "image_shows": "Moño con Listón Premium lentejuelas HT-3537",
+    "prices_on_image": "sin overlay visible"
+  },
+  {
+    "id": 95,
+    "current_img": "IMG-20260616-WA0031.jpg",
+    "correct_img": "IMG-20260616-WA0090.jpg",
+    "matches": false,
+    "image_shows": "Moños con Peluche scrunchie (aprox. Set Esponjas Beauty Blender — sin foto dedicada)",
+    "prices_on_image": "sin overlay visible"
+  },
+  {
+    "id": 96,
+    "current_img": "IMG-20260616-WA0032.jpg",
+    "correct_img": "IMG-20260616-WA0080.jpg",
+    "matches": false,
+    "image_shows": "Kit Accesorios para Cabello moños mariposa en tira",
+    "prices_on_image": "sin overlay visible"
+  }
+]
