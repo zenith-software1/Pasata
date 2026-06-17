@@ -1,0 +1,855 @@
+[
+  {
+    "file": "IMG-20260616-WA0000.jpg",
+    "title": "Perfume de Bolsillo Hello Kitty Favorbeauty",
+    "prices": {
+      "pieza": 11,
+      "caja": 227
+    },
+    "notes": "FAVORBEAUTY spray perfume Hello Kitty. Overlay: Pza$11 Caja$227"
+  },
+  {
+    "file": "IMG-20260616-WA0001.jpg",
+    "title": "Pestañas Postizas New 3D Mink Favorbeauty",
+    "prices": {
+      "pieza": 12,
+      "caja": 122
+    },
+    "notes": "NEW 3D PESTAÑAS MINK 3D HAIR. Overlay: Pza$12 Caja$122"
+  },
+  {
+    "file": "IMG-20260616-WA0002.jpg",
+    "title": "Gel para Cejas Brows Favorbeauty",
+    "prices": {
+      "pieza": 9,
+      "caja": 192
+    },
+    "notes": "EYEBROW GEL long lasting waterproof. Overlay: Pza$9 Caja$192"
+  },
+  {
+    "file": "IMG-20260616-WA0003.jpg",
+    "title": "Polvo Banana Setting Powder Favorbeauty",
+    "prices": {
+      "pieza": 15,
+      "caja": 157
+    },
+    "notes": "BANANA Pouder De Luxe. Overlay: Pza$15 Caja$157"
+  },
+  {
+    "file": "IMG-20260616-WA0004.jpg",
+    "title": "Gel y Máscara para Cejas Glam Favorbeauty",
+    "prices": {
+      "pieza": 11,
+      "caja": 227
+    },
+    "notes": "Glam Eyebrow & Mascara. Overlay: Pza$11 Caja$227"
+  },
+  {
+    "file": "IMG-20260616-WA0005.jpg",
+    "title": "Moños con Mariposa en Tira",
+    "prices": {
+      "pieza": 11,
+      "tira": 58
+    },
+    "notes": "Tira de moños con mariposa plush. Overlay: Par$11 Tira$58"
+  },
+  {
+    "file": "IMG-20260616-WA0006.jpg",
+    "title": "Ligas con Moño para Niña",
+    "prices": {
+      "pieza": 7,
+      "docena": 70
+    },
+    "notes": "Set ligas con moño Accessory. Overlay: Pza$7 Docena$70"
+  },
+  {
+    "file": "IMG-20260616-WA0007.jpg",
+    "title": "Perfiladores de Cejas Favorbeauty",
+    "prices": {
+      "pieza": 9,
+      "caja": 149
+    },
+    "notes": "Eyebrow Razor set 3 pzas FB1908. Overlay: Pza$9 Caja$149"
+  },
+  {
+    "file": "IMG-20260616-WA0008.jpg",
+    "title": "Bálsamo Labial Panda Honey",
+    "prices": {
+      "pieza": 17,
+      "docena": 175
+    },
+    "notes": "Vasitos Panda HONEY 6 pack. Overlay: Pza$17 Docena$175"
+  },
+  {
+    "file": "IMG-20260616-WA0009.jpg",
+    "title": "Fragancia Body Mist Emerald Glow 88ml",
+    "prices": {
+      "pieza": 30,
+      "caja": 315
+    },
+    "notes": "EMERALD GLOW brume parfumée. Overlay: Pza$30 Caja$315"
+  },
+  {
+    "file": "IMG-20260616-WA0010.jpg",
+    "title": "Pestañas Postizas False Eyelashes Mink 3D",
+    "prices": {
+      "pieza": 12,
+      "caja": 122
+    },
+    "notes": "FALSE EYELASHES MINK 3D HAIR. Overlay: Pza$12 Caja$122"
+  },
+  {
+    "file": "IMG-20260616-WA0011.jpg",
+    "title": "Set de Brochas Favor Beauty",
+    "prices": {
+      "paquete": 36
+    },
+    "notes": "Brochas azul/rosa/blanco. Overlay: Pq$36"
+  },
+  {
+    "file": "IMG-20260616-WA0012.jpg",
+    "title": "Delineador con Sello Eyeliner+Seal Favorbeauty",
+    "prices": {
+      "pieza": 10,
+      "caja": 219
+    },
+    "notes": "Double eyeliner pencil 4Seal. Overlay: Pza$10 Caja$219"
+  },
+  {
+    "file": "IMG-20260616-WA0013.jpg",
+    "title": "Delineador Líquido de Colores Favorbeauty",
+    "prices": {
+      "pieza": 10,
+      "caja": 201
+    },
+    "notes": "Perfect Long Lasting Waterproof. Overlay: Pza$10 Caja$201"
+  },
+  {
+    "file": "IMG-20260616-WA0014.jpg",
+    "title": "Uñas Postizas Infantiles Children's Nails",
+    "prices": {
+      "pieza": 8,
+      "docena": 79
+    },
+    "notes": "VV MEILIJAER 12PCS. Overlay: Pza$8 Docena$79"
+  },
+  {
+    "file": "IMG-20260616-WA0015.jpg",
+    "title": "Base de Maquillaje Perfect Matte + Poreless 12H",
+    "prices": {
+      "pieza": 29,
+      "caja": 306
+    },
+    "notes": "FAVORBEAUTY foundation. Overlay: Pza$29 Caja$306"
+  },
+  {
+    "file": "IMG-20260616-WA0016.jpg",
+    "title": "Base de Maquillaje Nude Favorbeauty",
+    "prices": {
+      "pieza": 35,
+      "caja": 359
+    },
+    "notes": "NUDE liquid foundation. Overlay: Pza$35 Caja$359"
+  },
+  {
+    "file": "IMG-20260616-WA0017.jpg",
+    "title": "Kit Máscara Volumizing y Tinte para Cejas Favorbeauty",
+    "prices": {
+      "pieza": 40,
+      "caja": 210
+    },
+    "notes": "VOLUMIZING CURL MASCARA + BROW Tint. Overlay: Pza$40 Caja$210"
+  },
+  {
+    "file": "IMG-20260616-WA0018.jpg",
+    "title": "Máscara de Pestañas Volumizing Lashcraft",
+    "prices": {
+      "pieza": 12,
+      "caja": 254
+    },
+    "notes": "Volumizing Lashcraft 2X longer. Overlay: Pza$12 Caja$254"
+  },
+  {
+    "file": "IMG-20260616-WA0019.jpg",
+    "title": "Mascarilla para Labios Lip Sleeping Mask Favorbeauty",
+    "prices": {
+      "pieza": 16,
+      "caja": 166
+    },
+    "notes": "Lip Sleeping Mask! mini jars. Overlay: Pza$16 Caja$166"
+  },
+  {
+    "file": "IMG-20260616-WA0020.jpg",
+    "title": "Moño Grande Rosa con Pedrería",
+    "prices": {
+      "pieza": 6,
+      "docena": 66
+    },
+    "notes": "Moño grosgrain rosa. Etiqueta rosa: Pza $6 Docena $66"
+  },
+  {
+    "file": "IMG-20260616-WA0021.jpg",
+    "title": "Llaveros Variados Misora Accesorios",
+    "prices": {
+      "pieza": 10,
+      "docena": 79
+    },
+    "notes": "Key Chain display card. Etiqueta: Llavero Pza $10 Docena $79"
+  },
+  {
+    "file": "IMG-20260616-WA0022.jpg",
+    "title": "Moños con Estampado de Cereza",
+    "prices": {
+      "pieza": 7,
+      "docena": 70
+    },
+    "notes": "Adorno para el cabello cerezas. Overlay: Par$7 Docena$70"
+  },
+  {
+    "file": "IMG-20260616-WA0023.jpg",
+    "title": "Aceite para Labios Lip Oil Favorbeauty",
+    "prices": {
+      "pieza": 13,
+      "caja": 262
+    },
+    "notes": "LIP OIL Stay Hydrated. Overlay: Pza$13 Caja$262"
+  },
+  {
+    "file": "IMG-20260616-WA0024.jpg",
+    "title": "Brillo Labial New Lip Gloss Moist Favorbeauty",
+    "prices": {
+      "pieza": 13,
+      "caja": 271
+    },
+    "notes": "NEW Lip gloss MOIST. Overlay: Pza$13 Caja$271"
+  },
+  {
+    "file": "IMG-20260616-WA0025.jpg",
+    "title": "Bálsamo Labial Humectante Forma de Lápiz Favorbeauty",
+    "prices": {
+      "pieza": 6,
+      "caja": 122
+    },
+    "notes": "LIP BALM moisturizing fashion color. Overlay: Pza$6 Caja$122"
+  },
+  {
+    "file": "IMG-20260616-WA0026.jpg",
+    "title": "Kit Rímel Volume Curl y Tinta para Cejas Favorbeauty",
+    "prices": {
+      "pieza": 40,
+      "caja": 210
+    },
+    "notes": "VOLUME CURL MASCARA + Eyebrow Tint. Overlay: Pza$40 Caja$210"
+  },
+  {
+    "file": "IMG-20260616-WA0027.jpg",
+    "title": "Base de Maquillaje Lasting Finish SPF 20+",
+    "prices": {
+      "pieza": 35,
+      "caja": 359
+    },
+    "notes": "LASTING FINISH full coverage. Overlay: Pza$35 Caja$359"
+  },
+  {
+    "file": "IMG-20260616-WA0028.jpg",
+    "title": "Bálsamo Labial Lip Glow Color Reviver Favorbeauty",
+    "prices": {
+      "pieza": 10,
+      "caja": 210
+    },
+    "notes": "LIP GLOW COLOR REVIVER BALM. Overlay: Pza$10 Caja$210"
+  },
+  {
+    "file": "IMG-20260616-WA0029.jpg",
+    "title": "Polvo Suelto Mineral de Cereza Favorbeauty",
+    "prices": {
+      "pieza": 28,
+      "caja": 289
+    },
+    "notes": "LOOSE POWDER cloudy to misty mineral. Overlay: pza$28 caja$289"
+  },
+  {
+    "file": "IMG-20260616-WA0030.jpg",
+    "title": "Polvo Compacto Perfect Natural Face Powder SPF 35",
+    "prices": {
+      "pieza": 27,
+      "caja": 280
+    },
+    "notes": "FIT us! two way cake. Overlay: pza$27 caja$280"
+  },
+  {
+    "file": "IMG-20260616-WA0031.jpg",
+    "title": "Jabón Rice Milk Soap Gluta + Colágeno Favorbeauty",
+    "prices": {
+      "pieza": 13,
+      "caja": 136
+    },
+    "notes": "RICE MILK SOAP. Overlay: Pza$13 Caja$136"
+  },
+  {
+    "file": "IMG-20260616-WA0032.jpg",
+    "title": "Lápiz para Cejas 36H Browlash Favorbeauty",
+    "prices": {
+      "pieza": 10,
+      "caja": 210
+    },
+    "notes": "36H BROWLASH 2 in 1 waterproof. Overlay: Pza$10 Caja$210"
+  },
+  {
+    "file": "IMG-20260616-WA0033.jpg",
+    "title": "Máscara de Pestañas Fiber Lashes 7D Waterproof",
+    "prices": {
+      "pieza": 15,
+      "caja": 315
+    },
+    "notes": "7D MASCARA FIBER LASHES. Overlay: Pza$15 Caja$315"
+  },
+  {
+    "file": "IMG-20260616-WA0034.jpg",
+    "title": "Brillo Labial Hello Kitty con Cascabel Favorbeauty",
+    "prices": {
+      "pieza": 14,
+      "caja": 289
+    },
+    "notes": "CREATE SPARKLING LIPS Hello Kitty. Overlay: Pza$14 Caja$289"
+  },
+  {
+    "file": "IMG-20260616-WA0035.jpg",
+    "title": "Polvo Banana Luxury Setting Powder Favorbeauty",
+    "prices": {
+      "pieza": 19,
+      "caja": 201
+    },
+    "notes": "BANANA SETTING POWDER Luxury. Overlay: Pza$19 Caja$201"
+  },
+  {
+    "file": "IMG-20260616-WA0036.jpg",
+    "title": "Kit de Pestañas Silky Lashes DIY Cluster Favorbeauty",
+    "prices": {
+      "unica": 60
+    },
+    "notes": "DIY Cluster Lashes bond+seal. Overlay: $60"
+  },
+  {
+    "file": "IMG-20260616-WA0037.jpg",
+    "title": "Kit de Maquillaje 3 en 1 Colossal Big Shot Favorbeauty",
+    "prices": {
+      "pieza": 37,
+      "caja": 385
+    },
+    "notes": "Mascara+Eyeliner+Eyebrow Gel. Overlay: Pza$37 Caja$385"
+  },
+  {
+    "file": "IMG-20260616-WA0038.jpg",
+    "title": "Fijador Mist & Fix Favorbeauty",
+    "prices": {
+      "pieza": 25,
+      "caja": 245
+    },
+    "notes": "MAKE UP FOR EVER MIST & FIX. Overlay: Pza$25 Caja$245"
+  },
+  {
+    "file": "IMG-20260616-WA0039.jpg",
+    "title": "Moño con Lentejuelas en Tira HT-3537",
+    "prices": {
+      "pieza": 11,
+      "tira": 58
+    },
+    "notes": "Adorno para el cabello lentejuela. Etiqueta anaquel: Par$11 Tira$58"
+  },
+  {
+    "file": "IMG-20260616-WA0040.jpg",
+    "title": "Esmalte de Uñas Efecto Gel Favorbeauty",
+    "prices": {
+      "pieza": 8,
+      "caja": 157
+    },
+    "notes": "Nail Polish gel effect waterproof. Overlay: Pza$8 Caja$157"
+  },
+  {
+    "file": "IMG-20260616-WA0041.jpg",
+    "title": "Bálsamo Labial de Fresa Favorbeauty",
+    "prices": {
+      "pieza": 8,
+      "caja": 175
+    },
+    "notes": "Strawberry LIP BALM MOISTURIZE. Overlay: pza$8 caja$175"
+  },
+  {
+    "file": "IMG-20260616-WA0042.jpg",
+    "title": "Base de Maquillaje HD Liquid Coverage Favorbeauty",
+    "prices": {
+      "pieza": 37,
+      "caja": 385
+    },
+    "notes": "HD LIQUID COVERAGE FOUNDATION. Overlay: Pza$37 Caja$385"
+  },
+  {
+    "file": "IMG-20260616-WA0043.jpg",
+    "title": "Vaselina Labial de Animalitos Favorbeauty",
+    "prices": {
+      "pieza": 6,
+      "caja": 122
+    },
+    "notes": "100% PURE PETROLEUM JELLY 24PCS. Overlay: pza$6 caja$122"
+  },
+  {
+    "file": "IMG-20260616-WA0044.jpg",
+    "title": "Máscara de Pestañas Beauty Colos Sal Favorbeauty",
+    "prices": {
+      "pieza": 13,
+      "caja": 262
+    },
+    "notes": "BEAUTY MASCARA COLOS SAL. Overlay: Pza$13 Caja$262"
+  },
+  {
+    "file": "IMG-20260616-WA0045.jpg",
+    "title": "Tinta Líquida para Cejas Grande Brow-Fill Favorbeauty",
+    "prices": {
+      "pieza": 11,
+      "caja": 227
+    },
+    "notes": "GRANDE BROW-FILL liquid eyebrow tint. Overlay: Pza$11 Caja$227"
+  },
+  {
+    "file": "IMG-20260616-WA0046.jpg",
+    "title": "Máscara de Pestañas Colossal Volum' Express Favorbeauty",
+    "prices": {
+      "pieza": 10,
+      "caja": 201
+    },
+    "notes": "the COLOSSAL VOLUM EXPRESS. Overlay: Pza$10 Caja$201"
+  },
+  {
+    "file": "IMG-20260616-WA0047.jpg",
+    "title": "Labial Líquido Mate Favorbeauty",
+    "prices": {
+      "pieza": 9,
+      "caja": 192
+    },
+    "notes": "LIQUID MATTE. Overlay: Pza$9 Caja$192"
+  },
+  {
+    "file": "IMG-20260616-WA0048.jpg",
+    "title": "Fragancia Body Mist Hello Kitty 88ml",
+    "prices": {
+      "pieza": 30,
+      "caja": 315
+    },
+    "notes": "Hello Kitty banana brume 88ml. Overlay: Pza$30 Caja$315"
+  },
+  {
+    "file": "IMG-20260616-WA0049.jpg",
+    "title": "Perfume Infantil Stitch y Angel Favorbeauty",
+    "prices": {
+      "pieza": 32,
+      "caja": 332
+    },
+    "notes": "Stitch & Angel heart bottles. Overlay: Pza$32 Caja$332"
+  },
+  {
+    "file": "IMG-20260616-WA0050.jpg",
+    "title": "Perfume de Bolsillo Kuromi Romantic Favorbeauty",
+    "prices": {
+      "pieza": 13,
+      "caja": 271
+    },
+    "notes": "Romantic And Rich Aroma Kuromi. Overlay: Pza$13 Caja$271"
+  },
+  {
+    "file": "IMG-20260616-WA0051.jpg",
+    "title": "Mascarillas Faciales Cereza y Aguacatito Favorbeauty",
+    "prices": {
+      "pieza": 5,
+      "paquete": 45
+    },
+    "notes": "MASK SHEET cherry y aguacatito. Sin overlay; misma línea/precio que WA0056 (Pza$5 Pq$45)"
+  },
+  {
+    "file": "IMG-20260616-WA0052.jpg",
+    "title": "Parches de Colágeno para Ojos Favorbeauty",
+    "prices": {
+      "pieza": 3,
+      "docena": 31
+    },
+    "notes": "Collagen Crystal Eye Mask 2px3g. Overlay: Pza$3 Docena$31"
+  },
+  {
+    "file": "IMG-20260616-WA0053.jpg",
+    "title": "Rubor y Labial Milk Blush Lipstick Favorbeauty",
+    "prices": {
+      "pieza": 12,
+      "caja": 245
+    },
+    "notes": "Milk Blush Lip+Cheek stain. Overlay: Pza$12 Caja$245"
+  },
+  {
+    "file": "IMG-20260616-WA0054.jpg",
+    "title": "Mujer Bonita — Logo de Tienda",
+    "prices": {},
+    "notes": "Imagen de marca (cosméticos, bisutería y joyería). Sin overlay de precio en imagen"
+  },
+  {
+    "file": "IMG-20260616-WA0055.jpg",
+    "title": "Llavero Signo Zodiacal Aries con Pedrería",
+    "prices": {
+      "pieza": 8,
+      "docena": 49
+    },
+    "notes": "Fashion Jewelry Aries. Overlay: Pza$8 Docena$49"
+  },
+  {
+    "file": "IMG-20260616-WA0056.jpg",
+    "title": "Mascarillas Faciales Sandía y Panda Favorbeauty",
+    "prices": {
+      "pieza": 5,
+      "paquete": 45
+    },
+    "notes": "MASK SHEET sandía y panda. Overlay: Pza$5 Pq$45"
+  },
+  {
+    "file": "IMG-20260616-WA0057.jpg",
+    "title": "Brillo Labial Chocolate Lip Gloss Favorbeauty",
+    "prices": {
+      "pieza": 12,
+      "caja": 255
+    },
+    "notes": "Chocolate LIP GLOSS. Overlay: Pza$12 Caja$255"
+  },
+  {
+    "file": "IMG-20260616-WA0058.jpg",
+    "title": "Rubor Kuromi y My Melody Favorbeauty",
+    "prices": {
+      "pieza": 14,
+      "caja": 289
+    },
+    "notes": "Blush Sanrio 24PCS NO:6836. Overlay: pza$14 caja$289"
+  },
+  {
+    "file": "IMG-20260616-WA0059.jpg",
+    "title": "Polvo Suelto Nude Makeup Look Favorbeauty",
+    "prices": {
+      "pieza": 38,
+      "caja": 201
+    },
+    "notes": "NUDE MAKEUP LOOK LOOSE POWDER. Overlay: pza$38 caja$201"
+  },
+  {
+    "file": "IMG-20260616-WA0060.jpg",
+    "title": "Diademas de Tela con Figuras de Peluche",
+    "prices": {
+      "pieza": 8,
+      "docena": 79
+    },
+    "notes": "YouDai Jewelry 6 bandas. Overlay: Pza$8 Docena$79"
+  },
+  {
+    "file": "IMG-20260616-WA0061.jpg",
+    "title": "Delineador de Ojos y Cejas 36H Favorbeauty",
+    "prices": {
+      "pieza": 12,
+      "caja": 254
+    },
+    "notes": "36H Liquid Eyeliner EYE BROW. Overlay: Pza$12 Caja$254"
+  },
+  {
+    "file": "IMG-20260616-WA0062.jpg",
+    "title": "Brillo Labial Voluminizador Lip Gloss Favorbeauty",
+    "prices": {
+      "pieza": 10,
+      "caja": 219
+    },
+    "notes": "LIP GLOSS VOLUMISING SHINE. Overlay: Pza$10 Caja$219"
+  },
+  {
+    "file": "IMG-20260616-WA0063.jpg",
+    "title": "Pomada para Cejas Brow Cream Favorbeauty",
+    "prices": {
+      "pieza": 22,
+      "caja": 236
+    },
+    "notes": "BROW CREAM long-lasting waterproof. Overlay: Pza$22 Caja$236"
+  },
+  {
+    "file": "IMG-20260616-WA0064.jpg",
+    "title": "Delineador 36H Super Waterproof Orejas de Gato",
+    "prices": {
+      "pieza": 8,
+      "caja": 175
+    },
+    "notes": "36H QUALITY EYELINER cat ears. Overlay: Pza$8 Caja$175"
+  },
+  {
+    "file": "IMG-20260616-WA0065.jpg",
+    "title": "Broches para Cabello con Glitter",
+    "prices": {
+      "pieza": 8,
+      "docena": 79
+    },
+    "notes": "Moños y ositos glitter. Overlay: Par$8 Docena$79"
+  },
+  {
+    "file": "IMG-20260616-WA0066.jpg",
+    "title": "Brillo Labial Galaxy Gloss con Llavero Favorbeauty",
+    "prices": {
+      "pieza": 27,
+      "caja": 280
+    },
+    "notes": "GALAXY GLOSS beaded keychain. Overlay: Pza$27 Caja$280"
+  },
+  {
+    "file": "IMG-20260616-WA0067.jpg",
+    "title": "Kit de Pestañas 3D Faux Mink Dingsen Favorbeauty",
+    "prices": {
+      "unica": 60
+    },
+    "notes": "3D FAUX Mink LASHES bond tube. Overlay: $60"
+  },
+  {
+    "file": "IMG-20260616-WA0068.jpg",
+    "title": "Máscara de Pestañas Make It Big Bold Black Favorbeauty",
+    "prices": {
+      "pieza": 13,
+      "caja": 271
+    },
+    "notes": "MAKE IT BIG waterproof volume. Overlay: Pza$13 Caja$271"
+  },
+  {
+    "file": "IMG-20260616-WA0069.jpg",
+    "title": "Bolsas de Regalo Diseño Hada",
+    "prices": {
+      "pieza": 8,
+      "docena": 79
+    },
+    "notes": "Bolsas ilustración hada. Overlay: Pza$8 Docena$79"
+  },
+  {
+    "file": "IMG-20260616-WA0070.jpg",
+    "title": "Fijador de Maquillaje Stay Cool Spray Favorbeauty",
+    "prices": {
+      "pieza": 26,
+      "caja": 271
+    },
+    "notes": "STAY COOL MAKE UP FIX SPRAY. Overlay: Pza$26 Caja$271"
+  },
+  {
+    "file": "IMG-20260616-WA0071.jpg",
+    "title": "Perfume de Bolsillo Hello Kitty Romantic Favorbeauty",
+    "prices": {
+      "pieza": 13,
+      "caja": 271
+    },
+    "notes": "PERFUME De Bolsillo Romantic. Overlay: Pza$13 Caja$271"
+  },
+  {
+    "file": "IMG-20260616-WA0072.jpg",
+    "title": "Kit de Pestañas DIY Cluster Lashes Favorbeauty",
+    "prices": {
+      "unica": 60
+    },
+    "notes": "DIY CLUSTER LASHES 50P-D bond+seal. Overlay: $60"
+  },
+  {
+    "file": "IMG-20260616-WA0073.jpg",
+    "title": "Set de Brochas Favor Beauty Verde y Morado",
+    "prices": {
+      "paquete": 36
+    },
+    "notes": "Brochas verde/morado. Sin overlay; mismo precio Pq$36 que WA0011"
+  },
+  {
+    "file": "IMG-20260616-WA0074.jpg",
+    "title": "Gel Máscara para Cejas y Pestañas Transparente Favorbeauty",
+    "prices": {
+      "pieza": 13,
+      "caja": 271
+    },
+    "notes": "Gel Mascara Brow & Lash hyaluronic. Overlay: Pza$13 Caja$271"
+  },
+  {
+    "file": "IMG-20260616-WA0075.jpg",
+    "title": "Cortauñas Hai Shun Advanced",
+    "prices": {
+      "pieza": 6,
+      "caja": 58
+    },
+    "notes": "Corta Uñas display. Etiqueta rosa: Pz. $6 Caja $58"
+  },
+  {
+    "file": "IMG-20260616-WA0076.jpg",
+    "title": "Moños con Brillos en Tira",
+    "prices": {
+      "pieza": 13,
+      "tira": 66
+    },
+    "notes": "Moños mesh con pedrería. Overlay: Par$13 Tira$66"
+  },
+  {
+    "file": "IMG-20260616-WA0077.jpg",
+    "title": "Máscara de Pestañas Wrap Lash Mega Extension Favorbeauty",
+    "prices": {
+      "pieza": 15,
+      "caja": 315
+    },
+    "notes": "WRAP LASH tubing mascaras. Overlay: Pza$15 Caja$315"
+  },
+  {
+    "file": "IMG-20260616-WA0078.jpg",
+    "title": "Moño Brillante con Lentejuelas en Tira HT-3537",
+    "prices": {
+      "pieza": 9,
+      "tira": 96
+    },
+    "notes": "Adorno para el cabello. Overlay: Pza$9 Tira$96"
+  },
+  {
+    "file": "IMG-20260616-WA0079.jpg",
+    "title": "Delineador en Gel 36H Favorbeauty",
+    "prices": {
+      "pieza": 9,
+      "caja": 185
+    },
+    "notes": "36H DELINEADOR EN GEL 4 colores. Overlay: Pza$9 Caja$185"
+  },
+  {
+    "file": "IMG-20260616-WA0080.jpg",
+    "title": "Tira de Moños con Mariposa para el Cabello",
+    "prices": {
+      "pieza": 11,
+      "tira": 58
+    },
+    "notes": "PARA EL CABELLO RT-2001 mariposa. Sin overlay digital; precio de tiras similares WA0005/WA0081 Par$11 Tira$58"
+  },
+  {
+    "file": "IMG-20260616-WA0081.jpg",
+    "title": "Tira de Moños con Listón y Brillos",
+    "prices": {
+      "pieza": 11,
+      "tira": 58
+    },
+    "notes": "Fashion Jewelry listón largo. Overlay: Par$11 Tira$58"
+  },
+  {
+    "file": "IMG-20260616-WA0082.jpg",
+    "title": "Esponjas de Maquillaje Colores Pastel",
+    "prices": {
+      "pieza": 7,
+      "docena": 70
+    },
+    "notes": "ESPONJA 12 piezas. Overlay: Pza$7 Docena$70"
+  },
+  {
+    "file": "IMG-20260616-WA0083.jpg",
+    "title": "Set de Pinceles para Uñas",
+    "prices": {
+      "paquete": 20,
+      "docena": 210
+    },
+    "notes": "Pinceles decoración uñas. Overlay: Pq$20 Docena$210"
+  },
+  {
+    "file": "IMG-20260616-WA0084.jpg",
+    "title": "Diademas de Peluche con Moño",
+    "prices": {
+      "pieza": 15,
+      "docena": 157
+    },
+    "notes": "Bandas peluche varios colores. Overlay: Pza$15 Docena$157"
+  },
+  {
+    "file": "IMG-20260616-WA0085.jpg",
+    "title": "Horquillas con Glitter Zhendong",
+    "prices": {
+      "pieza": 7,
+      "docena": 66
+    },
+    "notes": "Horquillas 12 piezas. Overlay: Pza$7 Docena$66"
+  },
+  {
+    "file": "IMG-20260616-WA0086.jpg",
+    "title": "Uñas Postizas Romantic Myth",
+    "prices": {
+      "pieza": 14,
+      "docena": 149
+    },
+    "notes": "Phantom butterfly 12 PCS. Overlay: Pza$14 Docena$149"
+  },
+  {
+    "file": "IMG-20260616-WA0087.jpg",
+    "title": "Ligas para Cabello Donas de Tela",
+    "prices": {
+      "pieza": 5,
+      "docena": 49
+    },
+    "notes": "Ligas/donas estampadas. Overlay: Pza$5 Docena$49"
+  },
+  {
+    "file": "IMG-20260616-WA0088.jpg",
+    "title": "Pinzas para Cabello con Diseños Florales",
+    "prices": {
+      "pieza": 11,
+      "docena": 114
+    },
+    "notes": "Pinzas florales y cristal. Overlay: Pza$11 Docena$114"
+  },
+  {
+    "file": "IMG-20260616-WA0089.jpg",
+    "title": "Moños de Satín con Hebilla de Pedrería y Perla",
+    "prices": {
+      "pieza": 14,
+      "docena": 149
+    },
+    "notes": "Gemei Jewelry 12 moños. Overlay: Pza$14 Docena$149"
+  },
+  {
+    "file": "IMG-20260616-WA0090.jpg",
+    "title": "Donas de Peluche con Moño en Tira",
+    "prices": {
+      "pieza": 11,
+      "tira": 114
+    },
+    "notes": "Scrunchies peluche con moño brillante. Etiqueta anaquel: Pza $11 Tira $114"
+  },
+  {
+    "file": "IMG-20260616-WA0091.jpg",
+    "title": "Donas de Peluche con Moño en Tira",
+    "prices": {
+      "pieza": 12,
+      "tira": 61
+    },
+    "notes": "Fashion Jewelry scrunchie+tela moño. Overlay: Par$12 Tira$61"
+  },
+  {
+    "file": "IMG-20260616-WA0092.jpg",
+    "title": "Tira de Moños con Pedrería Colores Pastel",
+    "prices": {
+      "pieza": 8,
+      "tira": 79
+    },
+    "notes": "ADORNOS PARA EL CABELLO. Overlay: Pza$8 Tira$79"
+  },
+  {
+    "file": "IMG-20260616-WA0093.jpg",
+    "title": "Llavero Carita Feliz con Pedrería",
+    "prices": {},
+    "notes": "Fashion Jewelry smiley dorado. Sin overlay de precio visible en imagen"
+  },
+  {
+    "file": "IMG-20260616-WA0094.jpg",
+    "title": "Máscara de Pestañas Prosa 4 en Uno",
+    "prices": {
+      "pieza": 45,
+      "mayoreo": 35
+    },
+    "notes": "PROSA máscara micro fibras/volumen/silicón. Overlay: Prosa$45 Mayoreo$35"
+  },
+  {
+    "file": "IMG-20260616-WA0095.jpg",
+    "title": "Broches para Cabello con Figuras Xingyihan",
+    "prices": {
+      "pieza": 6,
+      "tira": 49
+    },
+    "notes": "Mariposa/conejo niños. Overlay: Par$6 Tira$49"
+  }
+]
